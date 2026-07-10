@@ -4,7 +4,7 @@
   --primary: #003366;
   --accent: #ff6b35;
   --light: #f8f9fa;
-  --text: #222;
+  --text: #222222;
   --radius: 8px;
 }
 
@@ -62,7 +62,7 @@ h2 { font-size: 1.8rem; color: var(--primary); margin: 2rem 0 1rem; font-weight:
   text-decoration: none; 
   display: inline-block; 
   border-radius: var(--radius); 
-  font-weight: bold; 
+  font-weight: 600; 
   margin-top: 1rem;
   
 
