@@ -5,7 +5,7 @@
   --accent: #ff6b35;
   --light: #f8f9fa;
   --text: #222222;
-  --radius: 12px;
+  --radius: 8px;
 }
 
 * { margin: 0; 
@@ -105,13 +105,7 @@ h2 { font-size: 1.8rem; color: var(--primary); margin: 2rem 0 1rem; font-weight:
     background: darkorange;
 }
 
-.bhc-footer { 
-  background: var(--primary); 
-  color: white; 
-  text-align: center; 
-  padding: 2rem; 
-  margin-top: auto; 
-}
+
 
 .form-group { margin-bottom: 1.2rem; }
 .form-group label { display: block; margin-bottom: 0.4rem; font-weight: 600; }
@@ -138,4 +132,18 @@ h2 { font-size: 1.8rem; color: var(--primary); margin: 2rem 0 1rem; font-weight:
   h1 {
     font-size: 2rem;
   }
+bhc-footer { 
+  background: var(--primary); 
+  color: white; 
+  text-align: center; 
+  padding: 2rem; 
+  margin-top: auto; 
+}
+body {
+  display: flex;
+  flex-direction: coloumn;
+  min-height: 100vh;
+}
+main{
+  flex:1;
 }
