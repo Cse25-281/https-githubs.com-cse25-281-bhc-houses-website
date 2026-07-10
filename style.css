@@ -32,8 +32,8 @@ main{
   background: white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.logo img {
-  max-height: 45px !important;
+.bhc-header .logo img {
+  max-height: 30px !important;
   width: auto !important;
 }
 
