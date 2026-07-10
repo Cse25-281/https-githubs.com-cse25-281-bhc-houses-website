@@ -81,9 +81,9 @@ main h1 {
   opacity: 0.9;
 }
 
-.bhc-footer {
-  background: var(--primary);
+footer {
+  background: #003366;
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 30px;
 }
