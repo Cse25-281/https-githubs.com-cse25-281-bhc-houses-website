@@ -19,6 +19,10 @@ body {
   background: var(--light);
   color: var(--text);
 }
+main{
+  flex: 1;
+  padding 6rem 5%;
+  text-align: center;}
 
 .bhc-header {
   display: flex;
