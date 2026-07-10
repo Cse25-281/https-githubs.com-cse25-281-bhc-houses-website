@@ -33,10 +33,10 @@ body {
 .bhc-header .logo span { color: var(--accent); }
 .bhc-header nav a { 
   color: var(--text); 
-  margin-left: 2rem; 
+  margin-left: 20px; 
   text-decoration: none; 
-  font-weight: 600;
-  transition: 0.3s;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 .bhc-header nav a:hover { color: var(--accent); }
 
