@@ -61,11 +61,12 @@ header h2 span {
   color: var(--accent);
 }
 
-.bhc-header nav a {
+header nav a {
   margin-left: 1.5rem;
   text-decoration: none;
-  color: var(--text);
+  color: var(--primary);
   font-weight: bold;
+  transition: 0.3s;
 }
 
 main {
@@ -91,8 +92,9 @@ main h1 {
   display: inline-block;
 }
 
-.btn:hover {
-  opacity: 0.9;
+header nav a:hover {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
 }
 
 footer {
