@@ -80,16 +80,46 @@ main h1 {
   color: var(--primary);
   margin-bottom: 2rem;
 }
+/* PROPERTY CARDS */
+.property-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  text-align: left;
+}
 
-.btn {
-  background: var(--accent);
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-details {
+  padding: 1rem;
+}
+
+.price {
+  color: var(--primary);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.button {
+  background: var(--primary);
   color: white;
-  padding: 1rem 2.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   display: inline-block;
+  margin-top: 0.8rem;
+  transition: 0.3s;
+}
+.button:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+
 }
 
 header nav a:hover {
